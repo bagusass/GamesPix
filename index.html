@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>GamesPix</title>
+</head>
+
+<body class="bg-gray-100">
+
+  <header class="bg-blue-500 text-white p-4 flex flex-col items-center justify-center sm:flex-row sm:justify-between">
+    <div class="container mx-auto flex items-center">
+      <img src="logo.png" alt="Site Logo" class="h-8 mr-2">
+      <a href="index.html">
+        <h1 class="text-2xl font-bold">Free games</h1>
+      </a>
+    </div>
+    <input type="text" id="searchInput" placeholder="Search..."
+      class="p-2 rounded mt-2 sm:mt-0 w-full max-w-sm text-center sm:self-center">
+  </header>
+  <div id="mainContent">
+    <div class="container mx-auto mt-8">
+      <h1 class="text-3xl font-bold mb-4">Most played Today</h1>
+      <div id="gameList" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+      <div id="pagination" class="mt-4 flex justify-center"></div>
+    </div>
+
+    <div id="aboutSite">
+      <h2>About Our Games Site</h2>
+      <p>Discover a world of exciting games! Play instantly, anytime, anywhere, without any downloads. Enjoy a vast
+        collection of games across various genres - all free to play.</p>
+      <br>
+      <h2>Welcome to Our World of Gaming!</h2>
+      <p>Dive into an exhilarating experience with our vast collection of online games. From high-octane adventures and
+        mind-bending puzzles to immersive simulations and timeless classics, we've got it all. Our platform is designed
+        for gaming enthusiasts of all ages, promising endless entertainment at your fingertips.</p>
+      <br>
+      <p>Our games are carefully curated to ensure top-notch quality and endless fun. Whether you're looking to kill a
+        few minutes or immerse yourself in a gaming marathon, we're your go-to destination. With new games added
+        regularly, there's always something fresh and exciting to explore.</p>
+      <p>Experience seamless gameplay with no downloads or installations – just pure, unadulterated gaming joy. So, gear
+        up, choose your adventure, and let the games begin!</p>
+    </div>
+  </div>
+  <footer>
+    <p id="footerText">&copy; <span id="domainPart"></span>.</p>
+    <a href="#" id="privacyPolicyLink" class="text-white">Privacy Policy</a>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
