@@ -63,6 +63,7 @@ To run this project, follow these steps:
 <a href="https://gamesite.bistondroid.repl.co/"><img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white&label=demo&link=https%3A%2F%2Fcheck-my-ip--bistondroid.repl.co"/>
 </a>
 
+![Imgur](https://i.imgur.com/UOfTQ5F.jpg)
 
 ## Authors
 
